@@ -28,7 +28,13 @@ node build.js      # rebuild dist/ after any change
 node serve.js      # open http://localhost:4321
 ```
 
-## Publish it
+## Publish it with GitHub (automatic)
+
+Push this folder to a GitHub repository, then in the repository open **Settings → Pages** and set
+**Source** to **GitHub Actions**. Every push to `main` rebuilds and publishes the site
+(`.github/workflows/deploy.yml`). Your site appears at `https://<username>.github.io/<repo>/`.
+
+## Publish it elsewhere
 
 Upload the **`dist/`** folder to any static host , Netlify (drag & drop the folder),
 Vercel, GitHub Pages, Cloudflare Pages, or your own hosting. Before publishing, set

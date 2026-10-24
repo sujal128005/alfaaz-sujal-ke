@@ -188,7 +188,7 @@ main > section, main > article { padding-inline: var(--gutter); }
 .foot-meta { font: 400 .76rem/1.6 var(--sans); color: var(--muted); margin: 0; max-width: 60rem; }
 
 /* ───── HOME ───── */
-.is-home { overflow: hidden; }
+.is-home { overflow-x: hidden; }
 .home { min-height: 100svh; overflow: clip; display: grid; grid-template-rows: 1fr auto; padding: 84px var(--gutter) 28px; isolation: isolate; }
 .ink-field { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; }
 .nastaliq-inline { font-family: var(--nastaliq); letter-spacing: 0; text-transform: none; font-size: .95rem; }
@@ -200,14 +200,14 @@ main > section, main > article { padding-inline: var(--gutter); }
   animation: breathe 9s ease-in-out infinite;
 }
 @keyframes breathe { 50% { -webkit-text-stroke-color: rgba(214, 164, 94, .34); scale: 1.02; } }
-.home-title { margin: 0; font: 300 clamp(3.6rem, 13vw, 11rem)/.86 var(--serif); letter-spacing: -.03em; }
+.home-title { margin: 0; font: 300 clamp(3rem, min(13vw, 17vh), 11rem)/.86 var(--serif); letter-spacing: -.03em; }
 .ht { display: block; animation: rise 1.6s var(--ease) both; }
 .ht-1 { font-style: italic; }
 .ht-2 { animation-delay: .25s; color: var(--accent); font-size: .48em; letter-spacing: .06em; margin-top: .25em; font-weight: 400; }
 @keyframes rise { from { opacity: 0; transform: translateY(.35em); filter: blur(10px); } to { opacity: 1; transform: none; filter: none; } }
-.home-sub { font: italic 300 1.2rem var(--serif); color: var(--muted); margin: 1.2rem 0 2.2rem; animation: rise 1.6s var(--ease) .5s both; }
-.home-line { margin: 0; min-height: 7.5rem; max-width: 40rem; animation: rise 1.6s var(--ease) .8s both; }
-.home-line blockquote { margin: 0 0 .7rem; font-size: clamp(1.15rem, 2.6vw, 1.6rem); line-height: 1.6; transition: opacity .9s, filter .9s; }
+.home-sub { font: italic 300 1.2rem var(--serif); color: var(--muted); margin: min(1.2rem, 2vh) 0 min(2.2rem, 3.5vh); animation: rise 1.6s var(--ease) .5s both; }
+.home-line { margin: 0; min-height: min(7.5rem, 14vh); max-width: 40rem; animation: rise 1.6s var(--ease) .8s both; }
+.home-line blockquote { margin: 0 0 .7rem; font-size: clamp(1.05rem, min(2.6vw, 3.4vh), 1.6rem); line-height: 1.6; transition: opacity .9s, filter .9s; }
 .home-line blockquote[lang='en'] { font-style: italic; }
 .home-line figcaption { font: 500 .7rem var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--muted); transition: opacity .9s; }
 .home-line figcaption a { text-decoration: none; }
@@ -227,7 +227,6 @@ main > section, main > article { padding-inline: var(--gutter); }
 .door:hover .door-label { color: var(--accent); }
 @media (max-width: 1000px) { .home-doors { grid-template-columns: repeat(4, 1fr); row-gap: .8rem; } }
 @media (max-width: 560px) {
-  .is-home { overflow: auto; }
   .home-doors { grid-template-columns: 1fr 1fr; }
   .door-hint { display: none; }
   .home-line { min-height: 8.5rem; }
@@ -941,7 +940,6 @@ body.menu-open .music-btn, body.is-reading .music-btn { opacity: .25; }
 
 /* Short screens (phones held sideways, folds opened flat): let the home page scroll, keep bars slim */
 @media (max-height: 560px) {
-  .is-home { overflow: auto; }
   .home { min-height: auto; padding-top: 80px; }
   .home-title { font-size: clamp(3rem, 9vw, 6rem); }
   .home-line { min-height: 0; margin-bottom: 2rem; }
@@ -956,3 +954,9 @@ body.menu-open .music-btn, body.is-reading .music-btn { opacity: .25; }
 /* The one-time music hint stays small on narrow screens */
 .music-hint { max-width: min(16rem, calc(100vw - 90px)); }
 @media (max-width: 360px) { .music-hint { font-size: .85rem; padding: .45rem .7rem; } }
+/* Desktop: the music button lives bottom-right so it never covers the home page links */
+@media (min-width: 900px) {
+  .music-btn { left: auto; right: 18px; }
+  .music-hint { left: auto; right: 18px; }
+  .is-home .home-doors { padding-right: 130px; }
+}
