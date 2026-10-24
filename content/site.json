@@ -1,4 +1,4 @@
-{
+﻿{
   "_help": "Global settings. Set 'url' to your real domain before deploying (used for share previews and the sitemap). Set showReviewMarks to false once you've checked everything. Contact form: set 'web3formsKey' (free key from web3forms.com, letters arrive in your inbox and your address stays hidden) or 'contactEmail' (opens the visitor's email app).",
   "url": "https://alfaazsujalke.example",
   "name": "Sujal Negi",
@@ -6,7 +6,7 @@
   "handle": "alfaazsujalke",
   "penNameUrdu": "الفاظ سجل کے",
   "description": "Poetry by Sujal Negi (Alfaaz Sujal Ke) in English, Urdu and Hindi, on love, separation, spirituality and the feelings people keep unspoken.",
-  "showReviewMarks": true,
+  "showReviewMarks": false,
   "links": {
     "instagram": "https://www.instagram.com/sujal128005/",
     "portfolio": "https://sujalnegi.tech/#cover"
