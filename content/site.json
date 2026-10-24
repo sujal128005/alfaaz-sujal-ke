@@ -1,6 +1,6 @@
-﻿{
+{
   "_help": "Global settings. Set 'url' to your real domain before deploying (used for share previews and the sitemap). Set showReviewMarks to false once you've checked everything. Contact form: set 'web3formsKey' (free key from web3forms.com, letters arrive in your inbox and your address stays hidden) or 'contactEmail' (opens the visitor's email app).",
-  "url": "https://alfaazsujalke.example",
+  "url": "https://alfaaz.sujalnegi.tech",
   "name": "Sujal Negi",
   "penName": "Alfaaz Sujal Ke",
   "handle": "alfaazsujalke",
