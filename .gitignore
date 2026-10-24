@@ -1,0 +1,7 @@
+# Built output (GitHub rebuilds it on every push)
+dist/
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
