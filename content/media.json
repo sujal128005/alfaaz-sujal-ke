@@ -1,0 +1,116 @@
+{
+  "_help": "reels: paste public Instagram or Facebook reel links. Each entry: { \"url\": \"https://www.instagram.com/reel/XXXX/\", \"title\": \"…\", \"poem\": \"poem-file-name (optional)\" }. For a video file instead, put the mp4 in public/video and use { \"file\": \"video/name.mp4\", \"title\": \"…\" }. songs: mp3 files live in public/audio; lyrics live in content/lyrics (name.md, and name.en.md for an English translation). films: YouTube video IDs.",
+  "reels": [
+    {
+      "url": "https://www.instagram.com/reel/DY7-F4KT2op/",
+      "title": "Arz",
+      "featured": true,
+      "label": "One of my best, and closest to my heart"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DPZlhzuE-iH/",
+      "title": "Jannat-e-Himachal"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DOjtpCaE8Fk/",
+      "title": "Ek Shayri"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DLjMJ_fTVs1/",
+      "title": "Ek Safar"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DKAl1v1T5IU/",
+      "title": "Thehar Jaao"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DJKyyYyTxR6/",
+      "title": "Waakif Hai Tera Noor",
+      "poem": "waqif-hai-tera-noor"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DFWZoP2zHxe/",
+      "title": "The Thousand Suns"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DEQUfp2z5eG/",
+      "title": "Junoon-e-Ishq",
+      "poem": "junoon-e-ishq"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DDeFcJvPKnc/",
+      "title": "A Letter That Left Unsent",
+      "poem": "dearest-beautiful-past"
+    },
+    {
+      "url": "https://www.instagram.com/reel/C3QkzxPyu1j/",
+      "title": "Junoon-e-Ishq (1st position)",
+      "poem": "junoon-e-ishq",
+      "credit": "Edited and voiced by IIITians Network",
+      "creditUrl": "https://www.instagram.com/iiitiansnetwork/"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/1FG7wePN8z/",
+      "title": "Ladke Bhi Rote Hai"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/19W839BoRC/",
+      "title": "Kaash Vo Kal Hi Na Ho"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/1A8sgCwMi4/",
+      "title": "Tumhe Paane Ki Koshish Mein",
+      "credit": "Voiceover: jaslerlay",
+      "creditUrl": "https://www.youtube.com/@jaslerlay"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/1DhwEva1Mn/",
+      "title": "Teri Khushboo",
+      "credit": "Voiceover: jaslerlay",
+      "creditUrl": "https://www.youtube.com/@jaslerlay"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/1a5Rggn5su/",
+      "title": "My Dearest Love"
+    },
+    {
+      "url": "https://www.facebook.com/share/v/1DZb8jzFpd/",
+      "title": "My Mother Nature",
+      "poem": "my-mother-nature"
+    }
+  ],
+  "songs": [
+    {
+      "slug": "tere-paas-mai",
+      "title": "Tere Paas Mai",
+      "credit": "Original song, written by Sujal Negi",
+      "file": "audio/tere-paas-mai.mp3",
+      "duration": "4:00",
+      "lyrics": "tere-paas-mai"
+    },
+    {
+      "slug": "the-curse-song",
+      "title": "The Curse of Love",
+      "credit": "Written by Sujal Negi for the short film The Curse",
+      "file": "audio/the-curse-song.mp3",
+      "duration": "1:07",
+      "lyrics": "the-curse-of-love"
+    }
+  ],
+  "films": [
+    {
+      "slug": "the-curse",
+      "title": "The Curse",
+      "kind": "Short film",
+      "role": "Writer, and the song in the film",
+      "youtubeId": "bhAzK8mvv9k"
+    },
+    {
+      "slug": "the-mysterious-call",
+      "title": "The Mysterious Call",
+      "kind": "Drama",
+      "role": "Writer",
+      "youtubeId": "0NiJPzta0DE"
+    }
+  ]
+}

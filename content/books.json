@@ -1,0 +1,327 @@
+{
+  "_help": "Add, edit or remove books here. Leave a field as null if you don't know it yet. Optional: \"cover\" (a path inside /public, e.g. images/covers/himkavya.jpg) and \"buyUrl\". 'poems' lists poem file names (without .md) that appear in the book.",
+  "published": [
+    {
+      "slug": "himkavya",
+      "title": "Himkavya",
+      "titleNative": "किन्नौर हिमकाव्य",
+      "date": "2021-04-24",
+      "year": 2021,
+      "editor": "Mr. Mukesh Chand Negi",
+      "publisher": "Book Rivers",
+      "language": "Hindi",
+      "poems": [
+        "aangan-ko-sajate-hai",
+        "aaj-hoon",
+        "ye-kaanch-ki-duniya-hai",
+        "maa-mere-liye-sab-kuch-ho-tum",
+        "ye-jeevan",
+        "swachh-bharat-aatmanirbhar-bharat",
+        "meri-kitab-sabse-pyari"
+      ],
+      "note": null,
+      "review": null
+    },
+    {
+      "slug": "kavya-dharpan",
+      "title": "Kavya Dharpan",
+      "titleNative": "काव्य दर्पण",
+      "date": null,
+      "year": 2022,
+      "editor": "Dr. Sapna Negi",
+      "publisher": "Classic Era Publications",
+      "language": "Hindi",
+      "poems": [
+        "mera-lakshya-marg",
+        "maa",
+        "tera-mera-prem"
+      ],
+      "note": "This anthology earned him the Kavya Darpan Samman (second place).",
+      "review": "Your notes give the book as 2022 but the Kavya Darpan Samman as 2021. Please confirm both years."
+    },
+    {
+      "slug": "revolution",
+      "title": "Revolution",
+      "titleNative": null,
+      "date": null,
+      "year": 2022,
+      "editor": null,
+      "publisher": "The Write Order",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null
+    },
+    {
+      "slug": "storm",
+      "title": "Storm",
+      "titleNative": null,
+      "date": null,
+      "year": 2022,
+      "editor": null,
+      "publisher": "The Write Order",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null
+    },
+    {
+      "slug": "blossoming-the-day",
+      "title": "Blossoming the Day",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": "Hatchegg Publications",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": "Your Hatchegg certificate names the anthology “Blossoming Everyday”. Which title is correct?"
+    },
+    {
+      "slug": "bold-blossoms",
+      "title": "Bold Blossoms",
+      "subtitle": "Women's Day Narratives",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": "Blue Star Publication",
+      "language": "English and Hindi",
+      "poems": [],
+      "note": "An all-genres anthology. His contribution: poetry in English and Hindi.",
+      "review": null
+    },
+    {
+      "slug": "wreaths-of-shadows",
+      "title": "Wreaths of Shadows",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": "Thoughts Hymn Publishers",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null,
+      "month": "November"
+    },
+    {
+      "slug": "whispers-of-the-abyss-vol-1",
+      "title": "Whispers of the Abyss",
+      "subtitle": "Volume 1",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": "The Wisdom Roots Publishers",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null,
+      "month": "November"
+    },
+    {
+      "slug": "the-deep-ocean",
+      "title": "The Deep Ocean",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": "Blue Cloud Publishers",
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null,
+      "month": "May"
+    },
+    {
+      "slug": "the-story-of-life",
+      "title": "The Story of Life",
+      "titleNative": null,
+      "date": null,
+      "year": 2024,
+      "editor": null,
+      "publisher": null,
+      "language": null,
+      "poems": [],
+      "note": null,
+      "review": null,
+      "month": "July"
+    }
+  ],
+  "forthcoming": [
+    {
+      "slug": "from-loves-diary",
+      "title": "From Love’s Diary",
+      "genre": "Poetry",
+      "status": "15 poems",
+      "dedication": "To my Love",
+      "epigraph": "Love, like a rainbow after a storm, paints the night with colors born from the moon.",
+      "blurb": [
+        "These poems chronicle a journey of the heart, penned during a time of intense emotions and self-discovery. From the thrill of first connections to the echoes of loss, they explore the universal highs and lows of young love."
+      ],
+      "parts": [
+        {
+          "title": "Contents",
+          "chapters": [
+            "Eyes Meet",
+            "Little Moments",
+            "My Heart Knows",
+            "Safe with You",
+            "Love Notes",
+            "The Big Question",
+            "Our Happy Place",
+            "Sharing Dreams",
+            "Our First Fight",
+            "Feeling Apart",
+            "Love Lost",
+            "Hurtful Words",
+            "Saying Goodbye",
+            "Memories Stay",
+            "Moving On"
+          ]
+        }
+      ],
+      "featured": true,
+      "poems": [
+        "eyes-meet",
+        "little-moments",
+        "my-heart-knows",
+        "safe-with-you",
+        "love-notes",
+        "the-big-question",
+        "our-happy-place",
+        "sharing-dreams",
+        "our-first-fight",
+        "feeling-apart",
+        "love-lost",
+        "hurtful-words",
+        "saying-goodbye",
+        "memories-stay",
+        "moving-on"
+      ]
+    },
+    {
+      "slug": "before-they-become-memories",
+      "title": "Before They Become Memories",
+      "genre": "Poetry",
+      "status": "To be published soon"
+    },
+    {
+      "slug": "the-last-letter-to-hope",
+      "title": "The Last Letter to Hope",
+      "subtitle": "A Poetic Journey Through Life, Love, and Loss",
+      "genre": "Poetry",
+      "status": "Written · to be published soon",
+      "blurb": [
+        "“The Last Letter to Hope” isn't just another poetry collection. It's a personal journey, a heartfelt conversation with hope itself.",
+        "The poems explore a wide range of emotions and experiences, from the beauty of nature to the pain of heartbreak, from the joys of family to the challenges of modern life.",
+        "What sets this book apart is its honest and relatable voice, its vivid imagery, and its unique blend of Indian and Western influences. Whether you're a poetry enthusiast or simply looking for words that resonate with the human experience, “The Last Letter to Hope” will leave a lasting impression."
+      ],
+      "parts": [
+        {
+          "title": "Songs of the Earth",
+          "chapters": [
+            "Earth's Final Hour",
+            "Nature's Art",
+            "Thank You, Earth",
+            "Mother Nature Song",
+            "A Beautiful Moon or Endless Stars",
+            "The Cycle of Life, Death & Renewal",
+            "After Life",
+            "Green to Black, is What I'm Doing!",
+            "The Sun is Burning",
+            "My Heart Wishes",
+            "O Lord!",
+            "I am Like…",
+            "Life is Like a Road",
+            "India is My Country",
+            "My Himachal",
+            "Villages No More Village",
+            "Birds Chirping",
+            "Make This World Beautiful",
+            "'Chai and Mountain'",
+            "Everything is One",
+            "Pure Air is No More, Now It's Black Smoke",
+            "My Last Day"
+          ]
+        },
+        {
+          "title": "Love's Diary: An Unsent Letter",
+          "chapters": [
+            "Where Our Eyes First Meet",
+            "The Beauty of Little Moments",
+            "Listen to What My Heart Knows",
+            "A Safe Haven with You",
+            "Sweet Whispers of Love Notes",
+            "Dare to Ask the Big Question",
+            "Escaping to Our Happy Place",
+            "Intimate Moments Sharing Dreams",
+            "It Was Our First Fight",
+            "The Ache of Feeling Apart",
+            "The Bittersweetness of Love Lost",
+            "Scars Left by Hurtful Words",
+            "Finally, Said Saying Goodbye",
+            "Precious Memories That Stay",
+            "Finding Courage to Move On"
+          ]
+        },
+        {
+          "title": "Bonds of Kin & Kindred Spirits",
+          "chapters": [
+            "My Mother",
+            "Father - A Backbone of My Home",
+            "Journeying Together Through Life's Seasons",
+            "A Lifetime of Relationship",
+            "Sibling Bonds",
+            "My Photo Album with My Friends",
+            "Home is Where the Heart Is",
+            "Internet is Separating Us",
+            "The Folly of Fighting Over Land",
+            "Through Laughter, Tears, and Conflict",
+            "He is More Than Just a Friend"
+          ]
+        },
+        {
+          "title": "Musings of the Mind & Soul",
+          "chapters": [
+            "The Metamorphosis Within",
+            "Unveiling the Layers of Self",
+            "From Caterpillar to Butterfly: A Journey",
+            "The Dance of Seconds, Minutes, and Hours",
+            "A Fleeting Moment, an Eternal Echo",
+            "Timeless Truths in the Tapestry of Life",
+            "Whispers of the Soul",
+            "Finding Your North Star",
+            "The Compass Within: Navigating Life's Path",
+            "Glimpses of the Divine",
+            "The Awakening Heart",
+            "Finding Sanctuary Within",
+            "The World Through My Eyes",
+            "A Mirror to Society",
+            "Reflections on the Human Experience",
+            "The Symphony of Silence",
+            "Ode to Joy and Sorrow",
+            "The Language of The Soul"
+          ]
+        },
+        {
+          "title": "The Culture of My Country India",
+          "suggested": true,
+          "chapters": [
+            "Where the Ganga Speaks",
+            "A Thousand Tongues, One Heart",
+            "Diyas on the Doorstep",
+            "When Holi Paints the Lanes",
+            "The Looms of Kinnaur",
+            "Rangoli at Dawn",
+            "Echoes of the Temple Bell",
+            "Unity in Every Colour"
+          ]
+        }
+      ],
+      "review": "Part V titles are suggestions written for you. Keep, change or delete them in content/books.json (remove \"suggested\": true once final)."
+    }
+  ]
+}

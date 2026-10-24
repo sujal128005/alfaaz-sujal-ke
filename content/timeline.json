@@ -1,0 +1,174 @@
+{
+  "_help": "Each entry: year (number, or null if unknown), date (optional, YYYY-MM-DD), kind (beginning | recognition | book | screen | music | study | forthcoming), title, detail, link (optional). Poems that have a 'date' are added to the timeline automatically.",
+  "entries": [
+    {
+      "year": null,
+      "order": 0,
+      "kind": "beginning",
+      "title": "The first spark",
+      "detail": "In 9th standard, reading “Meri Devi-Si Maa”, a poem by his elder brother Mr. Arjun Singh Negi, sparked the urge to write. His brother became his mentor.",
+      "label": "Class IX"
+    },
+    {
+      "year": 2016,
+      "kind": "recognition",
+      "title": "अखिल भारतीय राष्ट्रभाषा तृतीया परीक्षा",
+      "detail": "Passed with first division."
+    },
+    {
+      "year": 2017,
+      "kind": "recognition",
+      "title": "अखिल भारतीय संस्कृत प्रतियोगिता परीक्षा",
+      "detail": "Scored 86/90.",
+      "label": "2016-17"
+    },
+    {
+      "year": 2021,
+      "date": "2021-04-24",
+      "kind": "book",
+      "title": "Himkavya",
+      "detail": "Anthology edited by Mr. Mukesh Chand Negi, published by Book Rivers.",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2021,
+      "kind": "recognition",
+      "title": "काव्य दर्पण सम्मान (द्वितीय)",
+      "detail": "Second-place honour for the anthology “Kavya Darpan”."
+    },
+    {
+      "year": 2022,
+      "kind": "book",
+      "title": "Kavya Dharpan",
+      "detail": "Edited by Dr. Sapna Negi, Classic Era Publications.",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2022,
+      "kind": "book",
+      "title": "Revolution and Storm",
+      "detail": "Two anthologies from The Write Order.",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "kind": "book",
+      "title": "Blossoming the Day",
+      "detail": "Hatchegg Publications, with a Certificate of Appreciation for the contribution.",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "kind": "book",
+      "title": "Bold Blossoms: Women's Day Narratives",
+      "detail": "Blue Star Publication. Poetry in English and Hindi.",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-13",
+      "kind": "recognition",
+      "title": "First position, IIITians Network poetry contest",
+      "detail": "Named Poetry Champion for “जुनून-ए-इश्क”.",
+      "link": "poems/junoon-e-ishq/"
+    },
+    {
+      "year": 2024,
+      "kind": "recognition",
+      "title": "India's Aspiring Writers Award 2024",
+      "detail": "Among the Top 5 winners (IFH)."
+    },
+    {
+      "year": 2024,
+      "kind": "recognition",
+      "title": "Solasta Techno-Culture Fest, IIIT Kurnool",
+      "detail": "2nd rank in Open Mic."
+    },
+    {
+      "year": 2025,
+      "kind": "recognition",
+      "title": "21st National Poetry Contest, S7 Poetry",
+      "detail": "Ranked 88th among the Top 100 poets in India, with a Gold Medal and Appreciation Letter for “जुनून-ए-इश्क”.",
+      "link": "poems/junoon-e-ishq/"
+    },
+    {
+      "year": 2024,
+      "kind": "screen",
+      "title": "The Curse",
+      "detail": "Wrote the short film, and a song for it.",
+      "link": "reels/#films"
+    },
+    {
+      "year": 2023,
+      "kind": "screen",
+      "title": "The Mysterious Call",
+      "detail": "Wrote the drama.",
+      "link": "reels/#films"
+    },
+    {
+      "year": 2024,
+      "kind": "music",
+      "title": "Tere Paas Mai",
+      "detail": "An original song, words by Sujal.",
+      "link": "reels/#songs"
+    },
+    {
+      "year": 2027,
+      "kind": "study",
+      "title": "B.Tech, IIIT Kurnool",
+      "detail": "Indian Institute of Information Technology Kurnool, Andhra Pradesh.",
+      "label": "Expected 2027"
+    },
+    {
+      "year": "soon",
+      "kind": "forthcoming",
+      "title": "His own books",
+      "detail": "“Before They Become Memories” and “The Last Letter to Hope” will be published soon.",
+      "link": "books/#desk"
+    },
+    {
+      "year": 2024,
+      "sort": "2024-07",
+      "kind": "book",
+      "title": "The Story of Life",
+      "detail": "",
+      "label": "July 2024",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "sort": "2024-11",
+      "kind": "book",
+      "title": "Whispers of the Abyss Volume 1",
+      "detail": "The Wisdom Roots Publishers.",
+      "label": "November 2024",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "sort": "2024-05",
+      "kind": "book",
+      "title": "The Deep Ocean",
+      "detail": "Blue Cloud Publishers.",
+      "label": "May 2024",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": 2024,
+      "sort": "2024-11",
+      "kind": "book",
+      "title": "Wreaths of Shadows",
+      "detail": "Thoughts Hymn Publishers.",
+      "label": "November 2024",
+      "link": "books/#anthologies"
+    },
+    {
+      "year": null,
+      "order": 4,
+      "kind": "book",
+      "title": "From Love’s Diary",
+      "detail": "His own collection of 15 poems on young love, from first glance to moving on.",
+      "link": "books/from-loves-diary/"
+    }
+  ]
+}

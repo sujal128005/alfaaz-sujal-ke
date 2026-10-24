@@ -1,0 +1,48 @@
+{
+  "_help": "Global settings. Set 'url' to your real domain before deploying (used for share previews and the sitemap). Set showReviewMarks to false once you've checked everything. Contact form: set 'web3formsKey' (free key from web3forms.com, letters arrive in your inbox and your address stays hidden) or 'contactEmail' (opens the visitor's email app).",
+  "url": "https://alfaazsujalke.example",
+  "name": "Sujal Negi",
+  "penName": "Alfaaz Sujal Ke",
+  "handle": "alfaazsujalke",
+  "penNameUrdu": "الفاظ سجل کے",
+  "description": "Poetry by Sujal Negi (Alfaaz Sujal Ke) in English, Urdu and Hindi, on love, separation, spirituality and the feelings people keep unspoken.",
+  "showReviewMarks": true,
+  "links": {
+    "instagram": "https://www.instagram.com/sujal128005/",
+    "portfolio": "https://sujalnegi.tech/#cover"
+  },
+  "contactEmail": null,
+  "web3formsKey": null,
+  "heroLines": [
+    {
+      "text": "ख़ामोशी के दरिया में डूबी सी इक आवाज़ हूँ",
+      "poem": "khamoshi-ke-dariya-mein",
+      "lang": "ur-Deva"
+    },
+    {
+      "text": "So many faces, all around me,\ntalking, laughing, sharing their worlds,",
+      "poem": "alone-in-a-crowd",
+      "lang": "en"
+    },
+    {
+      "text": "ग़म की स्याही से जब क़लम बोलने लगा,\nहर मिसरा मेरा इक दर्द खोलने लगा।",
+      "poem": "hijr-e-noor",
+      "lang": "ur-Deva"
+    },
+    {
+      "text": "The quill lies silent,\nthe pages blank.",
+      "poem": "a-mirror-held-up",
+      "lang": "en"
+    },
+    {
+      "text": "सपने हैं तो उड़ान है,\nचाहत हो दिल में, तो आसमान है।",
+      "poem": "pankhon-ki-chahat",
+      "lang": "hi"
+    },
+    {
+      "text": "ये दिल अब-भी लगा है, तुझको मनाने में।",
+      "poem": "junoon-e-ishq",
+      "lang": "ur-Deva"
+    }
+  ]
+}
